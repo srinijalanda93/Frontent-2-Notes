@@ -57,7 +57,7 @@ unshift() =>O(n)
 
 REMOVE the elements in the ARRAY 
 1. remove elements at the backside. => arr.pop() pop() is an empty argument O(1)
-    pop() also return the deleted element where we store in the ar and print
+    pop() also return the deleted element where we store in the var and print
 2. remove elements at the frontside. =>arr.shift(); //remove the staring element
    lly like pop returns the deletedElement.
 
