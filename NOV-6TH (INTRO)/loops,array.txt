@@ -68,7 +68,16 @@ SYNTAX Of Splice METHOD
 arr.splice(index,count,a,b,c,d,e,f,...);
 index:indicates element index /starting indexof the element
 count:number of elemnts like1/2/3
+->in case count is 0 mean we are not removing the elements.
+which is a useful case where we can insert in blw the elements..
+
 a,b,c,d,e,f,...:are the element which are used for adding
+
+
+-if the count is not mentioned it removes all the element till end
+example a=[1,2,3,4,55,"srinija"]
+a.splice(2) //[1,2] 
+Including  the index 2 all the elements get remove from the array and returns in the form of array..
 
 a.splice(i,0,values);  =>used for the adding the elements in the middle..
 
